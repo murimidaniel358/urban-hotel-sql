@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book and pay | Urban Hotel Mombasa</title><meta name="description" content="Book a room at Urban Hotel and pay by bank transfer. Booking desk 8 AM to 10 PM.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="bar"><span>Open 24/7 · Reception never closes</span><span>Bookings taken <b>8:00 AM to 10:00 PM</b></span></div>
+<header class="nav"><a class="logo" href="index.html"><i></i>Urban Hotel</a>
+<button class="mbtn" aria-expanded="false" aria-controls="menu">Menu</button>
+<nav id="menu" aria-label="Main"><a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="facilities.html">Facilities</a><a href="booking.html" aria-current="page">Book</a><a href="contact.html">Contact</a></nav></header>
+<main id="main"><div class="page-h"><h1>Book and pay</h1><p>Request your room, pay by bank transfer, then confirm on WhatsApp.</p><p style="margin-top:1rem"><span class="status" aria-live="polite"></span></p></div>
+<section class="wrap"><div class="bk"><div><h2>Your details</h2>
+<form class="f" id="bookform" style="margin-top:1.5rem">
+<label class="full">Room<select name="room"><option value="standard">Standard City Room, KES 8,500</option><option value="deluxe">Deluxe Sea-View Room, KES 12,500</option><option value="suite">Executive Suite, KES 21,000</option></select></label>
+<label>Check in<input type="date" name="in" required></label><label>Check out<input type="date" name="out" required></label>
+<label>Guests<select name="guests"><option>1</option><option selected>2</option><option>3</option><option>4</option></select></label>
+<label>Full name<input name="name" autocomplete="name" required></label>
+<label>Phone<input name="phone" type="tel" autocomplete="tel" required></label><label>Email<input name="email" type="email" autocomplete="email" required></label>
+<div class="sum full" id="sum" aria-live="polite"></div><p class="err full" id="err" role="alert"></p>
+<button class="btn dk full" id="submit" type="submit">Request booking</button></form><div id="result" style="margin-top:1.5rem"></div>
+<ol class="steps"><li><span>Fill in the form during booking hours, 8:00 AM to 10:00 PM.</span></li><li><span>Transfer the amount to our bank account, using your booking reference.</span></li><li><span>Send the payment proof on WhatsApp. We confirm your room within the hour.</span></li></ol></div>
+<aside class="pay" aria-labelledby="pt"><h3 id="pt">Pay by bank transfer</h3><p style="color:#cfe7ea">Use your booking reference as the payment reference.</p>
+<!-- DEMO DETAILS: replace with the hotel's real bank account before launch -->
+<dl><div><dt>Bank</dt><dd>Coastal Commerce Bank</dd></div><div><dt>Account name</dt><dd>Urban Hotel Ltd</dd></div>
+<div><dt>Account number</dt><dd>0123456789012 <button class="cp" type="button" data-copy="0123456789012">Copy</button></dd></div>
+<div><dt>Branch</dt><dd>Nyali, Mombasa</dd></div><div><dt>SWIFT</dt><dd>CCBKKENA</dd></div></dl>
+<a class="btn wa" target="_blank" rel="noopener" href="https://wa.me/254700000000?text=Hello%20Urban%20Hotel%2C%20I%20need%20help%20with%20a%20booking">Questions? WhatsApp us</a></aside></div></section></main>
+<footer class="foot"><div class="g"><div><h3>Urban Hotel</h3><p>A city hotel three minutes from the Mombasa shoreline. Open 24 hours, every day.</p></div>
+<div><h3>Explore</h3><a href="index.html">Home</a><a href="rooms.html">Rooms</a><a href="facilities.html">Facilities</a><a href="booking.html">Book</a><a href="contact.html">Contact</a></div>
+<div><h3>Contact</h3><a href="tel:+254700000000">+254 700 000 000</a><a href="mailto:stay@urbanhotel.example">stay@urbanhotel.example</a><span>Beach Road, Nyali, Mombasa</span></div>
+<div><h3>Follow us</h3><a target="_blank" rel="noopener" href="https://whatsapp.com/channel/REPLACE_WITH_YOUR_CHANNEL_CODE">WhatsApp Channel</a><a target="_blank" rel="noopener" href="https://wa.me/254700000000">Chat on WhatsApp</a></div></div>
+<p class="c">© <span class="yr"></span> Urban Hotel, Mombasa. A fictional hotel created for design purposes.</p></footer>
+<a class="wfloat" target="_blank" rel="noopener" href="https://wa.me/254700000000?text=Hello%20Urban%20Hotel">WhatsApp us</a>
+<script src="script.js"></script></body></html>
